@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  font: 500 1.05em /1.5 "Roboto", sans-serif;
+  background: linear-gradient(0deg, #00ffff, magenta);
+  color: rgb(21, 21, 21);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: #fafafe;
+  border-radius: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  max-width: 90%;
+  height: fit-content;
+}
+form {
+  padding: 64px;
+}
+.header {
+  background-color: #fafafe;
+  margin-bottom: 48px;
+}
+
+.form-control input {
+  background-color: whitesmoke;
+  color: rgb(21, 21, 21);
+  border: 2px solid rgb(243, 243, 243);
+  border-radius: 10px;
+  font-size: 18px;
+  width: 100%;
+  padding: 8px;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+}
+.form-control.success input {
+  border-color: #2ecc71;
+}
+.form-control.error input {
+  border-color: tomato;
+}
+.form-control.error small {
+  color: tomato;
+  visibility: visible;
+}
+small {
+  visibility: hidden;
+}
+
+.btn {
+  display: flex;
+  margin: 32px auto 0;
+  padding: 8px 32px;
+  border: 2px solid blue;
+  border-radius: 50px;
+  color: blue;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: blue;
+  color: #fafafe;
+}

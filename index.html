@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <form action="" id="form">
+        <div class="header">
+          <h1>Criar conta</h1>
+        </div>
+        <section class="form-control">
+          <label for="username">Nome</label>
+          <section class="input">
+            <!-- <i class="fas fa-check-circle"></i> -->
+            <input
+              placeholder="Digite seu nome completo"
+              type="text"
+              id="username"
+            />
+            <!-- <i class="fas fa-exclamation-circle"></i> -->
+            <small>error</small>
+          </section>
+        </section>
+
+        <section class="form-control">
+          <label for="email">Email</label>
+          <section class="input">
+            <!-- <i class="fas fa-check-circle"></i> -->
+            <input
+              placeholder="Digite seu melhor email"
+              type="email"
+              id="email"
+            />
+            <!-- <i class="fas fa-exclamation-circle"></i> -->
+            <small>error</small>
+          </section>
+        </section>
+
+        <section class="form-control">
+          <label for="password">Senha</label>
+          <section class="input">
+            <!-- <i class="fas fa-check-circle"></i> -->
+            <input
+              placeholder="Digite sua senha"
+              type="password"
+              id="password"
+            />
+            <!-- <i class="fas fa-exclamation-circle"></i> -->
+            <small>error</small>
+          </section>
+        </section>
+
+        <section class="form-control">
+          <label for="password-check">Confirmar senha</label>
+          <section class="input">
+            <!-- <i class="fas fa-check-circle"></i> -->
+            <input
+              placeholder="Digite a senha novamente"
+              type="password"
+              id="password-check"
+            />
+            <!-- <i class="fas fa-exclamation-circle"></i> -->
+            <small>error</small>
+          </section>
+        </section>
+
+        <button type="submit" id="btn-send" class="btn">Enviar</button>
+      </form>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/f39acc71bd.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
